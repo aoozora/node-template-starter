@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "strict": true,
+        "target": "ES5",
+        "skipLibCheck": true,
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "src",
+        "paths": {
+            "@/*": ["*"],
+            "@config/*": ["config/*"],
+            "@controllers/*": ["controllers/*"],
+            "@database/*": ["database/*"],
+            "@library/*": ["library/*"],
+            "@middlewares/*": ["middlewares/*"],
+            "@models/*": ["models/*"],
+            "@routes/*": ["routes/*"]
+        },
+        "outDir": "dist"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
